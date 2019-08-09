@@ -4,7 +4,7 @@ def guessing_game
   input = gets.chomp!
   
   if input == rando.to_s
-    puts "Way to go!"
+    puts "You guessed the correct number!"
   elsif input.downcase == "exit"
     puts "Later!"
   else
